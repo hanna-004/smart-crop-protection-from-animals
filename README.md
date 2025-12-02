@@ -25,18 +25,21 @@ This project is an AI-powered **real-time animal intrusion detection system** de
 
 ---
 ## 📸 Demo Output  
-(Add your screenshot here)  
 
+### 🐾 Animal Detection Output  
+![Detection Output](detection_output.png)
 
----
+### 📧 Email Alert Screenshot  
+![Email Sent](email_sent.png)
+
 
 ## Project Structure
 
 animal-intrusion-alert/
-│── animal_alert.py # Main program
+│── program.py # Main program
 │── requirements.txt # All required Python libraries
 │── README.md # Project documentation
-│── output.png # output of the project
+│── detection_output.png # output of the project
 
 
 ---
