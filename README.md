@@ -30,7 +30,7 @@ This project is an AI-powered **real-time animal intrusion detection system** de
 ![Detection Output](detection_output.png)
 
 ### 📧 Email Alert Screenshot  
-![Email Sent](email_sent-Copy.png)
+![Email Sent](email_sent.png)
 
 
 ## Project Structure
@@ -72,5 +72,5 @@ pip install -r requirements.txt
 ```
 ## Run the Project
 ```bash
-python animal_alert.py
+python program.py
 ```
