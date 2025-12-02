@@ -20,8 +20,8 @@ This project is an AI-powered **real-time animal intrusion detection system** de
 - **OpenCV**  
 - **YOLOv5/YOLOv8**  
 - **NumPy**  
-- **Torch / TensorFlow** (based on your model)  
-- **Matplotlib** (optional)  
+- **Torch / TensorFlow**  
+- **Matplotlib**
 
 ---
 ## 📸 Demo Output  
@@ -30,18 +30,18 @@ This project is an AI-powered **real-time animal intrusion detection system** de
 ![Detection Output](detection_output.png)
 
 ### 📧 Email Alert Screenshot  
-![Email Sent](email_sent.png)
+![Email Sent](email_sent-Copy.png)
 
 
 ## Project Structure
-
+```text
 animal-intrusion-alert/
 │── program.py # Main program
 │── requirements.txt # All required Python libraries
 │── README.md # Project documentation
 │── detection_output.png # output of the project
 
-
+```
 ---
 
 ##  Features
@@ -55,7 +55,7 @@ animal-intrusion-alert/
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. Camera captures live video  
 2. YOLOv8 detects animals  
@@ -66,18 +66,11 @@ animal-intrusion-alert/
 
 ---
 
-## 🛠️ Installation
-
-### Clone the Repository
-```bash
-git clone https://github.com/hanna-004/animal-intrusion-alert.git
-cd animal-intrusion-alert
-
-```
 ## Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ## Run the Project
+```bash
 python animal_alert.py
-
+```
