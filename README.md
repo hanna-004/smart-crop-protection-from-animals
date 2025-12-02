@@ -7,7 +7,7 @@ This project is an AI-powered **real-time animal intrusion detection system** de
 
 ##  Features
 - Real-time animal intrusion detection  
-- YOLO/CNN-based object detection  
+- YOLO-based object detection  
 - Works with live video feed or CCTV footage  
 - Detects multiple animals (cow, goat, dog, etc.)  
 - Helps reduce crop damage and increases farm safety  
@@ -24,12 +24,57 @@ This project is an AI-powered **real-time animal intrusion detection system** de
 - **Matplotlib** (optional)  
 
 ---
+## 📸 Demo Output  
+(Add your screenshot here)  
+
+
+---
 
 ## Project Structure
-SmartCropProtection/
-├─ main.py # Main script to run detection
-├─ requirements.txt # Python dependencies
-├─ yolo_model/ # Folder containing YOLO weights & configs
-├─ images/ # Sample images for testing
-├─ videos/ # Sample video files for testing
-├─ README.md # Project description
+
+animal-intrusion-alert/
+│── animal_alert.py # Main program
+│── requirements.txt # All required Python libraries
+│── README.md # Project documentation
+│── output.png # output of the project
+
+
+---
+
+##  Features
+
+- **Real-time Animal Detection** using YOLOv8  
+- **Email Alerts** with the detected animal image  
+- **Automatic Phone Call Alerts** using Twilio  
+- Filters out unwanted objects(chair, bottle, etc.)  
+- Live webcam detection  
+- Fast and lightweight (uses YOLOv8n)  
+
+---
+
+## 🚀 How It Works
+
+1. Camera captures live video  
+2. YOLOv8 detects animals  
+3. If an animal is detected:  
+   -  Email is sent with photo  
+   - Phone call is made after 15 seconds  
+4. Detection is shown on screen  
+
+---
+
+## 🛠️ Installation
+
+### Clone the Repository
+```bash
+git clone https://github.com/hanna-004/animal-intrusion-alert.git
+cd animal-intrusion-alert
+
+```
+## Install Dependencies
+
+pip install -r requirements.txt
+
+## Run the Project
+python animal_alert.py
+
